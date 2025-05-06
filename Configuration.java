@@ -17,8 +17,8 @@ public class Configuration {
         this.filtres = new ArrayList<>();
     }
 
-    public void chargerDepuisFichier(String cheminFichier) throws IOException {
-        try (FileReader reader = new FileReader(cheminFichier)) {
+    public void chargerFichier(String Fichier) throws IOException {
+        try (FileReader reader = new FileReader(Fichier)) {
 
             Gson gson = new Gson();
 
