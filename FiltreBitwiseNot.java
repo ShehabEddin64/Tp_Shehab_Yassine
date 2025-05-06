@@ -14,7 +14,7 @@ public class FiltreBitwiseNot extends Filtre {
 
 
         byte[] resultat = new byte[donnees.length];
-
+//yo faut changer ca jsp si c bon 
         // Appliquer le NOT bit-à-bit sur chaque octet
         for (int i = 0; i < donnees.length; i++) {
 
