@@ -26,7 +26,7 @@ public class FiltreEncryptionKey extends Filtre {
         // Créer un tableau pour le résultat
         byte[] resultat = new byte[donnees.length];
 
-        // Appliquer le XOR octet par octet
+        // Appliquer le XOR octet par octet ca ausssi faut le verifier 
         for (int i = 0; i < donnees.length; i++) {
             // Prendre le bon octet de la clé (en bouclant si nécessaire)
             byte keyByte = keyBytes[i % keyBytes.length];
